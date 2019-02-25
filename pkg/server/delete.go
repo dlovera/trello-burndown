@@ -3,9 +3,9 @@ package server
 import (
 	"net/http"
 
+	"github.com/dlovera/trello-burndown/pkg/trello"
 	"github.com/gorilla/mux"
 	"github.com/spf13/viper"
-	"github.com/swordbeta/trello-burndown/pkg/trello"
 )
 
 func delete(w http.ResponseWriter, r *http.Request) {

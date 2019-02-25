@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/dlovera/trello-burndown/pkg/server"
+	"github.com/dlovera/trello-burndown/pkg/trello"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/spf13/viper"
-	"github.com/swordbeta/trello-burndown/pkg/server"
-	"github.com/swordbeta/trello-burndown/pkg/trello"
 )
 
 func init() {

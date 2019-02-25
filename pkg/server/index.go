@@ -3,8 +3,8 @@ package server
 import (
 	"net/http"
 
+	"github.com/dlovera/trello-burndown/pkg/trello"
 	"github.com/spf13/viper"
-	"github.com/swordbeta/trello-burndown/pkg/trello"
 )
 
 type indexPage struct {

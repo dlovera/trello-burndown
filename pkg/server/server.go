@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/dlovera/trello-burndown/assets"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/itsjamie/go-bindata-templates"
+	binhtml "github.com/itsjamie/go-bindata-templates"
 	"github.com/spf13/viper"
-	"github.com/swordbeta/trello-burndown/assets"
 )
 
 var templates, err = binhtml.New(assets.Asset, assets.AssetDir).LoadDirectory("assets")

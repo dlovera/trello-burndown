@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/dlovera/trello-burndown/pkg/trello"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
 	"github.com/spf13/viper"
-	"github.com/swordbeta/trello-burndown/pkg/trello"
 )
 
 type viewPage struct {
